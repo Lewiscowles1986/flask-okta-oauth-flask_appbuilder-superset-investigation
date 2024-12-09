@@ -34,7 +34,7 @@ It uses the fact that `.venv/lib/python3.11/site-packages/authlib/integrations/f
 ```python
         # for Okta
         if provider == "okta":
-            data = self.appbuilder.sm.oauth_remotes[provider].token.get('userinfo')
+            data = self.appbuilder.sm.oauth_remotes[provider].userinfo()
             if data is None:
                 me = self.appbuilder.sm.oauth_remotes[provider].get("userinfo")
                 data = me.json()
