@@ -10,7 +10,7 @@ This repo serves as a minimal example of using Flask with Okta, using the same d
 #### Suggested
 
 * homebrew (OSX)
-* Use a virtual environment with `python -m venv .venv`
+* Use a virtual environment with `python -m venv .venv` (python may also be called python3)
 * Activate virtual environment with `. .venv/bin/activate`
 
 ### Python packages
